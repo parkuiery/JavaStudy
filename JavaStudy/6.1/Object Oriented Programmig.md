@@ -1,16 +1,14 @@
 # 객체 지향 프로그래밍
 
-<aside>
-<img src="https://www.notion.so/icons/archive_gray.svg" alt="https://www.notion.so/icons/archive_gray.svg" width="40px" /> **객체란?**
+
+**객체란?** 
 객체(Object)란 물리적으로 존재하거나 추상적으로 생각할 수 있는 것 중에서 자신의 속성을
 가지고 았고 다른 것과 식별 가능한 것을 말한다. 객체는 속성과 동작으로 구성되어 있다. 자바는 이 속성과 동작들을 각각 필드(field)와  메소드(method)라고 부른다.
 
-</aside>
 
-![Untitled](%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%20%E1%84%8C%E1%85%B5%E1%84%92%E1%85%A3%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%86%E1%85%B5%E1%86%BC%20928da286288d47169c27345ff7b0e731/Untitled.png)
 
-<aside>
-<img src="https://www.notion.so/icons/sync_gray.svg" alt="https://www.notion.so/icons/sync_gray.svg" width="40px" /> **객체의 상호작용**
+
+**객체의 상호작용**
 객체들은 각각 독립적으로 존재하고, 다른 객체와 서로 상호작용 하면서 동작한다. 객체들 사이의 상호작용 수단은 메소드이다. 객체가 다른 객체의 기능을 이용하는 것이 바로 메소드 호출이다.
 
 ---
@@ -27,16 +25,13 @@ int result = Calculator.add(10,20);
 
 리턴한 값을 int 변수에 저장
 
-</aside>
 
-<aside>
-<img src="https://www.notion.so/icons/expand_gray.svg" alt="https://www.notion.so/icons/expand_gray.svg" width="40px" /> **객체 간의 관계**
+**객체 간의 관계**
 객체는 개별적으로 사용될 수 있지만, 대부분 다른 객체와 관계를 맺고 있다. 이 관계의 종류에는 집한 관계, 사용 관계, 상속 관계가 있다. 집합 관계에 있는 객체는 하나는 부품이고 하나는 완성품에 해당한다.
 
-</aside>
 
-<aside>
-<img src="https://www.notion.so/icons/transfers_gray.svg" alt="https://www.notion.so/icons/transfers_gray.svg" width="40px" /> **객체 지향 프로그래밍의 특징**
+
+**객체 지향 프로그래밍의 특징**
 
 - **캡슐화(Encapsulation)**
 캡슐화란 객체의 필드, 메소드를 하나로 묶고, 실제 구현 내용을 감추는 것을 말한다. 외부 객체는 객체 내부의 구조를 알지 못하며 객체가 노출해서 제공하는 필드와 메소드만 이용할 수 있다.
@@ -52,4 +47,3 @@ int result = Calculator.add(10,20);
     다형성은 같은 타입이지만 실행 결과가 다양한 객체를 이용할 수 있는 성질을 말한다. 코드 측면에서 보면 다형성은 하나의 타입에 여러 객체를 대입함으로써 다양한 기능을 이용할 수 있도록 해준다. 자바는 다형성을 위해 부모 클래스 또는 인터페이스의 타입 변환을 허용한다. 부모 타입에는 모든 자식 객체가 대입될 수 있고, 인터페이스 타입에는 모든 구현 객체가 대입될 수 있다. 다형성의 효과로 객체는 부품화가 가능하다. 
     ****
     
-</aside>
