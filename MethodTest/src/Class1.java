@@ -13,6 +13,11 @@ public class Class1 {
         System.out.println("정수 연산: a + b = " + result);
     }
 
+    public void add(int a, int b, int c){
+        int result = a+b+c;
+        System.out.println("정수 3개 연산: a+b+c = "+ result);
+    }
+
     public int resultAdd(int a, int b){
         int result = a + b;
         return result;

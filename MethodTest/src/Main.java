@@ -7,5 +7,7 @@ public class Main {
 
         int result = c1.resultAdd(500,600);
         System.out.println("리턴 받은 값: " + result);
+
+        c1.add(500,600,700);
     }
 }
