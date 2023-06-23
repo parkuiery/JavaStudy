@@ -3,23 +3,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int n1 = 0;
-        int n2 = 0;
+        int a;
+        int b;
+        int c=0;
+        int[] arg = new int[100];
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-
-        n1 = sc.nextInt();
-        n2 = sc.nextInt();
-
-        if(n1>0&&n2>0){
-            System.out.println("1");
-        } else if (n1<0&&n2>0) {
-            System.out.println("2");
-        } else if (n1<0&&n2<0) {
-            System.out.println("3");
-        } else if (n1>0&&n2<0) {
-            System.out.println("4");
+        b = scanner.nextInt();
+        for(int i=0;i<b;i++){
+            arg[i] = scanner.nextInt();
         }
-
+        a = scanner.nextInt();
+        for(int i=0;i<b;i++){
+            if(arg[i]==a){
+                c++;
+            }
+        }
+        System.out.println(c);
     }
 }
+
+
+
+
+
